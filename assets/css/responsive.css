@@ -16,7 +16,7 @@
 	}
 
 	.hero img {
-		height: 500px;
+		height: 700px;
 	}
 
 	/* SITEMAIN
@@ -33,6 +33,7 @@
 	================================================== */
 	h4 {
 		font-size: 24px;
+		color: #fff;
 	}
 
 	/* Buttons */ 
@@ -72,6 +73,8 @@
 	================================================== */
 	.site-section {
 		padding-top: 90px;
+		color: aqua;
+		background-color: blue;
 	}
 
 	.section-skills,
@@ -120,10 +123,15 @@
 	/* Section: Counters */
 	.section-counters {
 		padding: 70px 0;
+		color: aqua;
+		background-color: blue;
+		
 	}
 
 	.site-section p.counter {
 		font-size: 80px;
+		
+		
 	}
 
 	/* Modal */
@@ -441,7 +449,12 @@
 	.section-portfolio .btn {
 		margin-top: 25px;
 	}
-
+.timer{
+	margin-left:100px;
+	color: #fff7f7;
+	background-color: aqua;
+	
+}
 	/* FOOTER
 	================================================== */
 	.site-footer .row {
