@@ -328,6 +328,7 @@
 	/* site-section */
 	.site-section {
 	   padding-top: 60px;
+	   
 	}
 
 	.section-skills,
@@ -457,9 +458,12 @@
 }
 	/* FOOTER
 	================================================== */
+	
 	.site-footer .row {
 		display:flex;
 		flex-direction: column-reverse;	
+		
+		
 	}
 
 	.site-footer .text-right{

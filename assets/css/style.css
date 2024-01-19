@@ -167,7 +167,7 @@ html, body {
     top: 0;
     width: 100%;
     background-color: transparent;
-    z-index: 5;
+    z-index: 500;
 }
 
 .site-logo img {
@@ -231,7 +231,7 @@ html, body {
     -ms-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
-    z-index: 2;
+    z-index: 1000;
 }
 
 .hero .col-md-6:last-child {
@@ -286,7 +286,7 @@ html, body {
 }
 
 /* Section: Skills */
-.section-skills {
+.countersskills {
     padding-bottom: 120px;
 }
 
@@ -344,7 +344,7 @@ html, body {
     position: relative;
     background-color: #fff;
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 1000;
 }
 
 .service h4 {
@@ -380,7 +380,7 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
     transition: background-color 0.25s ease-in-out;
     -moz-transition: background-color 0.25s ease-in-out;
     -webkit-transition: background-color 0.25s ease-in-out;
@@ -396,7 +396,7 @@ html, body {
     position: absolute;
     top: 150px;
     left: 0px;
-    z-index: 999;
+    z-index: 9999;
     opacity: 0;
     transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
     -moz-transition: opacity 0.25s ease-in-out, left 0.25s ease-in-out;
@@ -504,6 +504,8 @@ html, body {
 
 .section-counters h4 {
     color: #fff;
+    opacity: 1;
+    filter: brightness(5.75);
     margin: 25px 0 0;
 }
 
@@ -527,12 +529,11 @@ html, body {
 /* FOOTER
 ================================================== */
 .site-footer {
-    position: fixed;
-    bottom: 0;
+    margin-bottom: 0;
     padding: 30px 0;
     width: 100%;
     background-color: #212121;
-    z-index: -1;
+    z-index: 0;
 }
 
 .icon {
